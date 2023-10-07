@@ -1,4 +1,6 @@
-import { json, type LinksFunction } from "@remix-run/node";
+import type { LinksFunction } from "@remix-run/node";
+
+import { json } from "@remix-run/node";
 import {
   Form,
   Link,
@@ -10,6 +12,7 @@ import {
   ScrollRestoration,
   useLoaderData,
 } from "@remix-run/react";
+
 import appStyleHref from "./app.css";
 import { getContacts } from "./data";
 

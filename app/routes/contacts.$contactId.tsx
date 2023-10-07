@@ -1,6 +1,8 @@
-import { Form } from "@remix-run/react";
-import type { ContactRecord } from "~/data";
 import type { FunctionComponent } from "react";
+
+import { Form } from "@remix-run/react";
+
+import type { ContactRecord } from "~/data";
 
 export default function Contact() {
   const contact = {
